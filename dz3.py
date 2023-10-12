@@ -57,7 +57,7 @@ def iris():
     plt.xlabel('Petal Width')
     plt.ylabel('Frequency')
     plt.legend()
-    plt.savefig(os.path.join(output_dir, 'график4.png'))
+    plt.savefig(os.path.join(output_dir, 'graphic.png'))
     plt.clf()
     plt.tight_layout()
     plt.show()
